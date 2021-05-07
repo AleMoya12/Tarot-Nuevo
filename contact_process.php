@@ -1,19 +1,19 @@
 <?php
 
     $to = "spn8@spondonit.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $number = $_POST['number'];
+    $cmessage = $_POST['message'];
 
-    $headers = "From: $from";
+    $headers = "From: $name";
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
+    $subject = "Consulta desde (Sitio WEB).";
 
     $logo = 'img/logo.png';
     $link = '#';
@@ -33,5 +33,5 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
+	header("Location:index.html");
 ?>
