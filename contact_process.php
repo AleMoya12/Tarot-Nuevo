@@ -1,6 +1,6 @@
 <?php
 
-    $to = "spn8@spondonit.com";
+    $to = "amarresdeamralicia@gmail.com";
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
@@ -13,10 +13,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "Consulta desde (Sitio WEB).";
+    $subject = "Consulta desde (Amarre WEB).";
 
     $logo = 'img/logo.png';
-    $link = '#';
+    $link = 'www.tu-amarre.com';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
