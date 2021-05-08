@@ -20,31 +20,35 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900&display=swap");
 
 /* line 5, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
+
+
 /* whatsapp */
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-.float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
+
+.my-float {
+    margin-top: 16px;
+}
+
 body {
     font-family: "Muli", sans-serif;
     font-weight: normal;
@@ -1908,7 +1912,7 @@ h3 {
 
 /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 
-.slider_area .single_slider .slider_text h3 {
+.slider_area .single_slider .slider_text h1 {
     color: #FFF;
     font-family: "Muli", sans-serif;
     font-size: 80px;
@@ -1920,21 +1924,21 @@ h3 {
 
 @media (max-width: 767px) {
     /* line 149, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 br {
+    .slider_area .single_slider .slider_text h1 br {
         display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* line 149, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 br {
+    .slider_area .single_slider .slider_text h1 br {
         display: none;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     /* line 149, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 br {
+    .slider_area .single_slider .slider_text h1 br {
         display: none;
     }
 }
@@ -1942,13 +1946,13 @@ h3 {
 
 /* line 160, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 
-.slider_area .single_slider .slider_text h3 span {
+.slider_area .single_slider .slider_text h1 span {
     font-weight: 700;
 }
 
 @media (max-width: 767px) {
     /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 {
+    .slider_area .single_slider .slider_text h1 {
         font-size: 30px;
         line-height: 35px;
     }
@@ -1956,7 +1960,7 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 {
+    .slider_area .single_slider .slider_text h1 {
         font-size: 30px;
         line-height: 35px;
     }
@@ -1964,7 +1968,7 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-    .slider_area .single_slider .slider_text h3 {
+    .slider_area .single_slider .slider_text h1 {
         font-size: 45px;
         letter-spacing: 3px;
         line-height: 55px;
